@@ -45,7 +45,7 @@ namespace ProjectEuler
                     project = new PythagoreanTriplet();
                     break;
                 case "10":
-                        // is slow, like super slow, like 5 min slow. Needs rework if i can be arsed.
+                        // is slow, like super slow, like 5 min slow. Needs rework.
                     project = new SumPrimes();
                     break;
                 case "11":
