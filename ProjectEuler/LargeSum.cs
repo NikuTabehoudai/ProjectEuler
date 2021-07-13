@@ -119,7 +119,7 @@ namespace ProjectEuler
                 result += BigInteger.Parse(item);
             }
 
-            Console.WriteLine(result.ToString().Substring(0, 10));
+            Console.WriteLine( result.ToString().Substring(0, 9));
 
         }
 
