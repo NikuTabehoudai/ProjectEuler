@@ -6,7 +6,7 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            string cases = "11";
+            string cases = "13";
             string input = "";
             object project;
 
@@ -54,7 +54,9 @@ namespace ProjectEuler
                 case "12":
                     project = new TriangularNumber();
                 break;
-
+                case "13":
+                    project = new LargeSum();
+                break;
 
                 }
             }
